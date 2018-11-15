@@ -3,8 +3,8 @@ package renderer
 import (
 	"testing"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/Sirupsen/logrus/hooks/test"
+	"github.com/sirupsen/logrus"
+	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/VirtusLab/render/renderer/configuration"
 	"github.com/stretchr/testify/assert"
 )
