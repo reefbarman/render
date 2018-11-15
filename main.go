@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/VirtusLab/render/constants"
 	"github.com/VirtusLab/render/files"
 	"github.com/VirtusLab/render/renderer"
