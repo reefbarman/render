@@ -1,10 +1,10 @@
 # render
 
-[![Version](https://img.shields.io/badge/version-v0.0.4-brightgreen.svg)](https://github.com/VirtusLab/render/releases/tag/v0.0.4)
-[![Travis CI](https://img.shields.io/travis/VirtusLab/render.svg)](https://travis-ci.org/VirtusLab/render)
-[![Github All Releases](https://img.shields.io/github/downloads/VirtusLab/render/total.svg)](https://github.com/VirtusLab/render/releases)
-[![Go Report Card](https://goreportcard.com/badge/github.com/VirtusLab/render "Go Report Card")](https://goreportcard.com/report/github.com/VirtusLab/render)
-[![GoDoc](https://godoc.org/github.com/VirtusLab/render?status.svg "GoDoc Documentation")](https://godoc.org/github.com/VirtusLab/render/renderer)
+[![Version](https://img.shields.io/badge/version-v0.0.4-brightgreen.svg)](https://github.com/reefbarman/render/releases/tag/v0.0.4)
+[![Travis CI](https://img.shields.io/travis/reefbarman/render.svg)](https://travis-ci.org/reefbarman/render)
+[![Github All Releases](https://img.shields.io/github/downloads/reefbarman/render/total.svg)](https://github.com/reefbarman/render/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/reefbarman/render "Go Report Card")](https://goreportcard.com/report/github.com/reefbarman/render)
+[![GoDoc](https://godoc.org/github.com/reefbarman/render?status.svg "GoDoc Documentation")](https://godoc.org/github.com/reefbarman/render/renderer)
 
 Universal data-driven templates for generating textual output. Can be used as a single static binary (no dependencies)
 or as a golang library.
@@ -12,7 +12,7 @@ or as a golang library.
 The renderer extends 
 [go-template](https://golang.org/pkg/text/template/) and [Sprig](http://masterminds.github.io/sprig/) functions. 
 
-If you are interested in one of the use cases, take a look at this [blog post](https://medium.com/virtuslab/helm-alternative-d6568aa9d40b) 
+If you are interested in one of the use cases, take a look at this [blog post](https://medium.com/reefbarman/helm-alternative-d6568aa9d40b) 
 about Kubernetes resources rendering. Also see [Helm compatibility](README.md#helm-compatibility).
 
 * [Installation](README.md#installation)
@@ -31,14 +31,14 @@ about Kubernetes resources rendering. Also see [Helm compatibility](README.md#he
 
 #### Binaries
 
-For binaries please visit the [Releases Page](https://github.com/VirtusLab/render/releases).
+For binaries please visit the [Releases Page](https://github.com/reefbarman/render/releases).
 
 The binaries are statically compiled and does not require any dependencies. 
 
 #### Via Go
 
 ```console
-$ go get github.com/VirtusLab/render
+$ go get github.com/reefbarman/render
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ VERSION:
    v0.0.4-cf8e3d3
 
 AUTHOR:
-   VirtusLab
+   reefbarman
 
 COMMANDS:
      help, h  Shows a list of commands or help for one command
@@ -101,8 +101,8 @@ Also see a [more advanced template](examples/example.yaml.tmpl) example.
 package example
 
 import (
-    "github.com/VirtusLab/render/renderer"
-    "github.com/VirtusLab/render/renderer/configuration"
+    "github.com/reefbarman/render/renderer"
+    "github.com/reefbarman/render/renderer/configuration"
 )
 
 func CustomRender(template string) (string, error) {
@@ -112,9 +112,9 @@ func CustomRender(template string) (string, error) {
 }
 ```
 
-See also [`RenderWith`](https://godoc.org/github.com/VirtusLab/render/renderer#Renderer.RenderWith) function that takes a custom functions map.
+See also [`RenderWith`](https://godoc.org/github.com/reefbarman/render/renderer#Renderer.RenderWith) function that takes a custom functions map.
 
-Also see [tests](https://github.com/VirtusLab/render/blob/master/renderer/render_test.go) for more usage examples.
+Also see [tests](https://github.com/reefbarman/render/blob/master/renderer/render_test.go) for more usage examples.
 
 #### Notable standard and sprig functions
 
@@ -137,7 +137,7 @@ All syntax and functions:
 - `gzip`, `ungzip` - use `gzip` compression and extraction inside the templates, for best results use with `b64enc` and `b64dec`
 
 See also [example](examples/example.yaml.tmpl) template 
-and a more [detailed documentation](https://godoc.org/github.com/VirtusLab/render/renderer#Renderer.ExtraFunctions).
+and a more [detailed documentation](https://godoc.org/github.com/reefbarman/render/renderer#Renderer.ExtraFunctions).
 
 #### Helm compatibility
 
@@ -161,17 +161,17 @@ We provide cross-compiled binaries for most platforms, but is currently used mai
 
 ## Contribution
 
-Feel free to file [issues](https://github.com/VirtusLab/render/issues) or [pull requests](https://github.com/VirtusLab/render/pulls).
+Feel free to file [issues](https://github.com/reefbarman/render/issues) or [pull requests](https://github.com/reefbarman/render/pulls).
 
 ## Development
 
-    mkdir $GOPATH/src/github.com/VirtusLab/
+    mkdir $GOPATH/src/github.com/reefbarman/
     git clone 
     
     go get -u github.com/golang/dep/cmd/dep
     
     export PATH=$PATH:$GOPATH/bin
-    cd $GOPATH/src/github.com/VirtusLab/render
+    cd $GOPATH/src/github.com/reefbarman/render
     make all
 
 ## The name

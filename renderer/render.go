@@ -7,9 +7,9 @@ import (
 	"text/template"
 
 	"github.com/Masterminds/sprig"
-	"github.com/Sirupsen/logrus"
-	"github.com/VirtusLab/render/files"
-	"github.com/VirtusLab/render/renderer/configuration"
+	"github.com/sirupsen/logrus"
+	"github.com/reefbarman/render/files"
+	"github.com/reefbarman/render/renderer/configuration"
 	"github.com/pkg/errors"
 )
 

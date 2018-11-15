@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/VirtusLab/render/constants"
-	"github.com/VirtusLab/render/files"
+	"github.com/reefbarman/render/constants"
+	"github.com/reefbarman/render/files"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

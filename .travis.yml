@@ -27,7 +27,7 @@ deploy:
     secure: ZtoUiICdperoWcnXLDYdlMP227imit75NAOXnranUernLtPOBaJ4N5OHIXkS7FXGPb4b3drsEuOGZ/jx+cRYBExxftD54teRPJIzsV1S9MmSP1BnLOfXeTV1ls4ckReDZzTCtIYohbno44S95SN2ds0s75P/Vqha/kLstfQJ+nrZCyzsvVTQRTUoN46eI0D3fA3HJXz+eZ4J+sLFd5JFp6ZrEvHomODbbuW47iG7pa2aOPBCjywlT2kDjJLQxg/5PJgIWwVtE90pBeGIgbI++dyNAXMw35+vtutGmIXTIhkTrKhrvYW/9+gvhZNZ8bLwvZ0hIsfrKherTmOWvsGSjkRp1AyORl7H9TEvQxq0nbb+MObpTS26p8j0NOOjsYHIXSIZV+msXtwAH2MYitTbnuAjBpvi0Ihye5ESZexQu8h+YP6HygdhJcSm6GlDYxw8Qv4Ec3gotYG6p55ZYjvIq4W8fR+cZKn1aTODF49XvEJXztjJw3sVXUeLV9QoitHffPAHnGrmwLPWQprioEOHo5gDvncathCa4G55D7r7hZPlB4n5m4wKb+8trM0AUk7Jxianpyo+tBMnF0Pxw3nOEEFrLeCOpdfAacsyhKUOGyBieqVV7dS+1XEghK1MwIjMwcCn3Ydzb5mi5keSh7u1mBCwplsZzjeJn11xaemxbeU=
   skip_cleanup: true
   on:
-    repo: VirtusLab/render
+    repo: reefbarman/render
     tags: true
   file:
   - cross/render-darwin-amd64

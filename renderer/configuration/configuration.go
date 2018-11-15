@@ -3,9 +3,9 @@ package configuration
 import (
 	"io/ioutil"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/VirtusLab/render/files"
-	"github.com/VirtusLab/render/matcher"
+	"github.com/sirupsen/logrus"
+	"github.com/reefbarman/render/files"
+	"github.com/reefbarman/render/matcher"
 	"github.com/ghodss/yaml"
 	"github.com/imdario/mergo"
 	"github.com/pkg/errors"

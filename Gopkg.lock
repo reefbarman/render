@@ -19,7 +19,7 @@
 
 [[projects]]
   digest = "1:ba912523e603bc6ae1004d168a2e72166302ed8874386aec695513ceea5d8846"
-  name = "github.com/Sirupsen/logrus"
+  name = "github.com/sirupsen/logrus"
   packages = [
     ".",
     "hooks/test",
@@ -140,8 +140,8 @@
   analyzer-version = 1
   input-imports = [
     "github.com/Masterminds/sprig",
-    "github.com/Sirupsen/logrus",
-    "github.com/Sirupsen/logrus/hooks/test",
+    "github.com/sirupsen/logrus",
+    "github.com/sirupsen/logrus/hooks/test",
     "github.com/ghodss/yaml",
     "github.com/imdario/mergo",
     "github.com/pkg/errors",

@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"reflect"
 
-	"github.com/VirtusLab/render/files"
-	"github.com/VirtusLab/render/renderer/configuration"
+	"github.com/reefbarman/render/files"
+	"github.com/reefbarman/render/renderer/configuration"
 	"github.com/ghodss/yaml"
 	"github.com/pkg/errors"
 )

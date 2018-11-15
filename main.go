@@ -5,11 +5,11 @@ import (
 	"os"
 
 	"github.com/sirupsen/logrus"
-	"github.com/VirtusLab/render/constants"
-	"github.com/VirtusLab/render/files"
-	"github.com/VirtusLab/render/renderer"
-	"github.com/VirtusLab/render/renderer/configuration"
-	"github.com/VirtusLab/render/version"
+	"github.com/reefbarman/render/constants"
+	"github.com/reefbarman/render/files"
+	"github.com/reefbarman/render/renderer"
+	"github.com/reefbarman/render/renderer/configuration"
+	"github.com/reefbarman/render/version"
 	"gopkg.in/urfave/cli.v1"
 )
 

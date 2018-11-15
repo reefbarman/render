@@ -5,7 +5,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
-	"github.com/VirtusLab/render/renderer/configuration"
+	"github.com/reefbarman/render/renderer/configuration"
 	"github.com/stretchr/testify/assert"
 )
 
